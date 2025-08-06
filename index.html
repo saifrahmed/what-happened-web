@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Just Happened</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navigation Menu -->
+    <nav class="bg-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-center items-center space-x-6">
+            <a href="#home" class="text-blue-600 hover:text-blue-800 font-medium transition-colors duration-300">Home</a>
+            <a href="#privacy-policy" class="text-gray-600 hover:text-blue-800 font-medium transition-colors duration-300">Privacy Policy</a>
+            <a href="#contact" class="text-gray-600 hover:text-blue-800 font-medium transition-colors duration-300">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Header Section -->
+        <header class="text-center my-8">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-blue-600 tracking-tight">
+                What Just Happened
+            </h1>
+            <p class="mt-4 text-lg sm:text-xl text-gray-600">
+                A simple guide to understanding how world news impacts stock prices.
+            </p>
+        </header>
+
+        <!-- Main Content Section -->
+        <div id="home">
+            <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- News Card 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">
+                        Major Tech Company Announces Q3 Earnings Miss
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4">
+                        The company's earnings fell short of analyst expectations due to a slowdown in consumer spending and increased competition.
+                    </p>
+                    <div class="bg-yellow-50 p-4 rounded-xl border-l-4 border-yellow-400">
+                        <h3 class="font-semibold text-yellow-800">Potential Stock Impact:</h3>
+                        <p class="text-sm text-yellow-700 mt-1">
+                            Expect a likely dip in the company's stock price in the short term. This could also lead to a broader negative sentiment across the tech sector, affecting related stocks.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- News Card 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">
+                        New Government Policy on Renewable Energy Passed
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4">
+                        The government has approved new subsidies and tax credits for companies investing in solar and wind power, aiming to accelerate the transition to green energy.
+                    </p>
+                    <div class="bg-green-50 p-4 rounded-xl border-l-4 border-green-400">
+                        <h3 class="font-semibold text-green-800">Potential Stock Impact:</h3>
+                        <p class="text-sm text-green-700 mt-1">
+                            Stocks of renewable energy companies and related manufacturers (e.g., solar panel makers) are expected to see a significant boost. Fossil fuel stocks may experience downward pressure.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- News Card 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">
+                        Central Bank Raises Interest Rates
+                    </h2>
+                    <p class="text-gray-600 text-sm mb-4">
+                        The Federal Reserve has increased its benchmark interest rate by 0.5%, a move to combat persistent inflation and cool down the economy.
+                    </p>
+                    <div class="bg-blue-50 p-4 rounded-xl border-l-4 border-blue-400">
+                        <h3 class="font-semibold text-blue-800">Potential Stock Impact:</h3>
+                        <p class="text-sm text-blue-700 mt-1">
+                            Higher interest rates make borrowing more expensive, which can slow economic growth. This often leads to a decline in the overall stock market, though banks and financial institutions may see gains.
+                        </p>
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+        
+        <!-- Privacy Policy Section -->
+        <section id="privacy-policy" class="mt-12 bg-gray-50 p-8 rounded-2xl shadow-inner">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">
+                Privacy Policy
+            </h2>
+            <p class="text-gray-700 leading-relaxed">
+                This application is for informational and educational purposes only. We do not collect, store, or share any personal information from our users. All data presented here is hypothetical and intended solely to demonstrate the correlation between news events and market movements. Your privacy is important, and this app is designed to be used without any data collection.
+            </p>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="mt-12 bg-gray-50 p-8 rounded-2xl shadow-inner">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">
+                Contact Us
+            </h2>
+            <p class="text-gray-700 leading-relaxed">
+                If you have any questions or feedback about the "What Just Happened" app, you can reach out to us at:
+            </p>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li>Email: <a href="mailto:support@whatjusthappened.com" class="text-blue-600 hover:underline">support@whatjusthappened.com</a></li>
+                <li>Twitter: <a href="https://twitter.com/whatjusthappened" class="text-blue-600 hover:underline">@whatjusthappened</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
